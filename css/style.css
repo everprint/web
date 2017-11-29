@@ -1,0 +1,99 @@
+body
+{
+	font: 80% verdana, arial, helvetica, sans-serif;
+	text-align: center;
+}
+
+td
+{
+	border: 1px solid gray;/*#f33;*/
+}
+
+a
+{
+	color: green;
+}
+
+.textHilight
+{
+	color: orange;
+	font-weight: bold;
+}
+
+th
+{
+	background: red;
+	color: white;
+}
+
+.redbar
+{
+	width:707px;
+	height: 2px;
+	display: inline;
+	position: relative;
+	top: -7px;
+}
+
+.logo
+{
+	position: relative;
+	margin-top: 20px;
+}
+
+.hovermenu ul{
+font: bold 16px arial;
+padding-left: 0;
+margin-left: 0;
+text-align: center;
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.hovermenu ul li a{
+padding-right: 32px;
+padding-left: 32px;
+padding-bottom: 10px;
+text-decoration: none;
+color: #504A4B;
+}
+
+a.nav
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+}
+
+a.nav:hover
+{
+	text-decoration: underline;
+}
+
+#contents
+{
+	position: relative;
+	top: 25px;
+	height: 350px;
+	width: 800px;
+	overflow: auto;
+}
+
+#footer
+{
+	position: relative;
+	top: 30px;
+	font-size: 12px;
+	
+}
+
+#header, #contents, #footer {
+	margin:0 auto;
+} 
